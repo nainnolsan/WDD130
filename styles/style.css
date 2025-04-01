@@ -46,17 +46,32 @@ nav a:hover {
 }
 
 .hero {
+    position: relative;
     text-align: center;
-    background: #fff;
-    padding: 30px;
+    background: white;
+    overflow: hidden;
 }
 
 .hero h1 {
     font-size: 150px;
+    z-index: 2;
 }
 
 .hero p {
     font-size: 75px;
+    z-index: 2;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+    background: url("../dinner/images/family.jpg");
+    filter: blur(5px) brightness(0.8);
+    opacity: 0.6;
+    z-index: 1;
 }
 
 .section-purpose {
