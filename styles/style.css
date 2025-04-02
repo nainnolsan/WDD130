@@ -111,12 +111,12 @@ nav a:hover {
     padding: 10px;
     border-radius: 5px;
     width: 100%;
-    font-size: 2rem; /* Aumentado para mayor visibilidad */
+    font-size: 2rem;
 }
 
 .section-purpose p {
-    font-size: 1.3rem; /* Aumentado para hacer el texto más grande */
-    line-height: 1.6; /* Mejora la legibilidad */
+    font-size: 1.3rem;
+    line-height: 1.6;
     text-align: center;
 }
 
