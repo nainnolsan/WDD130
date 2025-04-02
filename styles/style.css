@@ -366,3 +366,71 @@ footer p {
     margin-top: 15px;
     font-size: 14px;
 }
+
+/* national food holiday */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.blue-background {
+    background-color: #1192f0;
+}
+.yellow-background {
+    background-color: #E7C24F;
+}
+.red-background {
+    background-color: #f43834;
+}
+.title {
+    font-size: 2rem;
+    padding-top: 75px;
+    margin: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: lightgray;
+    width: 100%;
+    margin: 0 auto;
+    height: 75px;
+}
+.card {
+    background: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card li {
+    max-width: 100%;
+    margin-bottom: 5px;
+    list-style-type: none;
+    padding: 5px 0;
+    color: black;
+    background: white;
+}
