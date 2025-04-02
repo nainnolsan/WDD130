@@ -212,6 +212,7 @@ nav a:hover {
     background: white;
     padding: 50px 10%;
     text-align: center;
+    margin-top: 80px;
 }
 
 .recipe-cards h2 {
